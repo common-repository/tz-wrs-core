@@ -1,0 +1,229 @@
+#wp_authors_panel{
+    border: 1px solid #EEEEEE;
+    padding: 10px;
+}
+
+#wp_authors_head{
+    color: #4D8EDD;
+    font-size: 125%;
+    font-weight: bold;
+    text-align: center;
+}
+
+#wp_authors_form{
+    border: 1px solid #CFCFCF;
+    margin: 20px 5px;
+}
+
+.frm_row{
+    margin: 10px;
+}
+
+.frm_label{
+    float: left;
+    width: 125px;
+}
+
+.frm_field{
+    float: left;
+    width: 200px;
+}
+
+.frm_control{
+    float: left;
+}
+
+.frm_control input[type='button']{
+   background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #CFCFCF;
+    height: 35px;
+    margin-right: 5px;
+    padding: 5px;
+    width: 85px;
+}
+
+.frm_cls{
+    clear:both;
+}
+
+#wp_authors_list{
+
+}
+
+.auth_row{
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #CFCFCF;
+    margin: 5px;
+    padding: 5px;
+}
+
+.auth_image{
+    border: 5px solid #FFFFFF;
+    float: left;
+    height: 96px;
+    width: 96px;
+}
+
+.auth_info{
+    float: left;
+    margin: 10px 20px;
+    width: 270px;
+}
+.auth_info .title{
+    font-family: lucida Grande;
+    font-weight: bold;
+
+}
+.auth_info .desc{
+    font-family: lucida Grande;
+    font-size: 13px;
+
+}
+
+.auth_follow{
+    float: left;
+    width: 100px;
+}
+.auth_follow input[type='button']{
+    background: none repeat scroll 0 0 #5092D7;
+    border: 3px solid #5D9CDE;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 15px 0;
+    padding: 3px;
+    width: 100px;
+}
+.error{
+background: none repeat scroll 0 0 #E14A4A;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.success{
+background: none repeat scroll 0 0 #9BD282;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.wp-admin .dj_follow_case input.dj_follow, .wp-admin .dj_follow_case input.dj_following, .wp-admin .dj_follow_case input.logged_out {
+    padding: .4em;
+}
+
+.dj_follow_case span {
+    position: relative;
+    top: 3px;
+    font-weight: bold;
+}
+
+.wrs_on_air_wrapper .dj_follow_case {
+    display: inline-block;
+    margin-left: 5px;
+    position: relative;
+    top: -5px;
+	pointer-events: auto;
+}
+
+.dj_follow_case input.dj_follow, .dj_follow_case input.dj_following, .dj_follow_case input.logged_out {
+    margin: 0px;
+    padding: .6em;
+    font-size: 14px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+    border: thin solid var(--secondary-color);
+}
+.dj_follow_case input.dj_follow, .dj_follow_case input.logged_out {
+    background-color: var(--border-color);
+    color: var(--text-color);
+}
+
+.dj_follow_case input.dj_following {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+}
+
+input.dj_follow, input.logged_out, input.dj_following.following, input.dj_following.following:focus {
+	text-decoration: none;
+    background-color: var(--accent-color);
+    color: var(--background-color);
+}
+
+input[type="button"].dj_follow:hover {
+    background: var(--background-color);
+}
+
+.wp-admin li.schedule_item div div.dj_follow_case {
+    font-size: 1.8em;
+}
+
+.followers span.afollower, .followers span.afollowee {
+    padding: 5px;
+	font-size: .71em;
+    border: thin solid var(--secondary-color);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 5px 5px 0 0;
+    display: inline-block;
+}
+
+.followers, .followees {
+	display: none;
+    padding: 2px 5px 5px 5px;
+    margin: 10px 0 0 0;
+    background-color: var(--border-color);
+}
+
+.followers_text.showing:before, .followees_text.showing:before {
+	content: "\f530";
+}
+
+.followers_text.hiding:before, .followees_text.hiding:before {
+    content: "\f177";
+}
+
+.followers_text.showing, .followees_text.showing {
+    background-color: var(--header-footer-background-color);
+}
+.followers_text.hiding:before, .followers_text.showing:before, .followees_text.hiding:before, .followees_text.showing:before {
+	font-family: dashicons;
+    width: 21px;
+    display: inline-block;
+    height: 13px;
+    top: 2px;
+    position: relative;
+	cursor: pointer;
+}
+
+.followers_text, .followees_text	{
+    background-color: var(--background-color);
+	padding: 2px 4px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+    border-radius: 3px;
+	border: thin solid var(--secondary-color);
+}
+
+.followers_text:hover, .followees_text:hover {
+    text-decoration: underline;
+}
+span.followers_text, span.followees_text {
+    font-size: .81em;
+    margin: 0 8px 0 0;
+    position: relative;
+    top: 4px;
+    display: inline-block;
+}
+
+.wrs_profile_id .dj_follow_case {
+    display: block;
+	margin-bottom: 5px;
+}
